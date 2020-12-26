@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Piedra&family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+.container {
+  min-height: 100vh;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.4rem 0.5rem 0 0.5rem;
+}
+
+input[type="text"] {
+  height: 2rem;
+  width: 50%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  outline: none;
+  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.25);
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.555);
+}
+
+button {
+  background: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  outline: none;
+  border: none;
+  width: 7rem;
+  height: 2rem;
+  border-radius: 5px;
+  margin: 0.5rem 2rem;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+button:hover {
+  background: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+
+.box {
+  min-height: 35vh;
+  padding: 1rem 2rem;
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.25);
+  flex: 1 1 calc(30vw - 4rem);
+}
+
+.header {
+  text-align: center;
+  font-family: "Piedra", sans-serif;
+  letter-spacing: 3px;
+}
+
+.input-container {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button-container {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.answer-container {
+  min-width: 50%;
+  height: 3rem;
+  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

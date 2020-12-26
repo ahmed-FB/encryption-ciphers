@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encryption | Decryption</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h2 class="header">Caesar</h2>
+        <div class="input-container">
+          <input
+            type="text"
+            placeholder="Enter the text"
+            id="caesar-text"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Enter the key"
+            id="caesar-key"
+            required
+          />
+        </div>
+        <div class="button-container">
+          <button id="caesar">encrypt</button>
+          <!-- <button id="caesar">decrypt</button> -->
+        </div>
+        <div class="answer-container" id="caesar-answer">Ciphered Text</div>
+      </div>
+      <div class="box">
+        <h2 class="header">MonoAlphabetic</h2>
+        <div class="input-container">
+          <input
+            type="text"
+            placeholder="Enter the text"
+            id="monoalphabetic-text"
+            required
+          />
+        </div>
+        <div class="button-container">
+          <button id="monoalphabetic">encrypt</button>
+          <!-- <button id="monoalphabetic">decrypt</button> -->
+        </div>
+        <div class="answer-container" id="monoalphabetic-answer">
+          Ciphered Text
+        </div>
+      </div>
+      <div class="box">
+        <h2 class="header">PlayFair</h2>
+        <div class="input-container">
+          <input
+            type="text"
+            placeholder="Enter the text"
+            id="playfair-text"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Enter the keyword"
+            id="playfair-key"
+            required
+          />
+        </div>
+        <div class="button-container">
+          <button id="playfair">encrypt</button>
+          <!-- <button id="playfair">decrypt</button> -->
+        </div>
+        <div class="answer-container" id="playfair-answer">Ciphered Text</div>
+      </div>
+      <div class="box">
+        <h2 class="header">Vigenere</h2>
+        <div class="input-container">
+          <input
+            type="text"
+            placeholder="Enter the text"
+            id="vigenere-text"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Enter the keyword"
+            id="vigenere-key"
+            required
+          />
+        </div>
+        <div class="button-container">
+          <button id="vigenere">encrypt</button>
+          <!-- <button id="vigenere">decrypt</button> -->
+        </div>
+        <div class="answer-container" id="vigenere-answer">Ciphered Text</div>
+      </div>
+      <div class="box">
+        <h2 class="header">RailFence</h2>
+        <div class="input-container">
+          <input
+            type="text"
+            placeholder="Enter the text"
+            id="railfence-text"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Enter the depth"
+            id="railfence-key"
+            required
+          />
+        </div>
+        <div class="button-container">
+          <button id="railfence">encrypt</button>
+          <!-- <button id="railfence">decrypt</button> -->
+        </div>
+        <div class="answer-container" id="railfence-answer">Ciphered Text</div>
+      </div>
+
+      <!-- <div class="box">
+      <h2 class="header">PolyAlphabetic</h2>
+    </div> -->
+    </div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
